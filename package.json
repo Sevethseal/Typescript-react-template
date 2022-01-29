@@ -58,7 +58,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json}": [
-      "--bailOnLintError true"
+      "eslint --fix --max-warnings=0"
     ],
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write"
