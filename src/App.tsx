@@ -4,6 +4,7 @@ import image from './image.png'
 
 const App = () => {
   const name = 'name'
+  const name2 = 'name2'
   return (
     <div className="heading">
       Hello world
